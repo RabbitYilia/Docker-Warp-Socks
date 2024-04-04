@@ -42,12 +42,12 @@ socksmethod: none
 clientmethod: none
 
 client pass {
-from: 0.0.0.0/0 to: 0.0.0.0/0
+from: 0/0 to: 0/0
 log: error
 }
 
 socks pass {
-from: 0.0.0.0/0 to: 0.0.0.0/0
+from: 0/0 to: 0/0
 }
 EOF
 
